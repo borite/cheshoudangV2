@@ -33,5 +33,7 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  'POST /api/shop/creatshop': { action: 'shop/creatshop' },
+  'GET /api/shop/share': { action: 'shop/share' },
 
 };
